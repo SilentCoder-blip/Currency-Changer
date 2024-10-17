@@ -3,7 +3,7 @@ import requests
 
 # Function to get exchange rates
 def get_exchange_rates(base_currency='USD'):
-    url = f'https://api.exchangerate-api.com/v4/latest/{base_currency}'
+    #url = f'https://api.exchangerate-api.com/v4/latest/{base_currency}'
     response = requests.get(url)
     data = response.json()
     
